@@ -48,7 +48,19 @@ Em computação, árvores são um modelo de estrutura hierárquica que consiste 
   
 </h1>
 
-## Conteúdo das Implementações
+### Conteúdo das Implementações
 Encontre as informações específicas em cada código, que contém seus respectivos READMEs.
+<p align="left">
+ <a href="https://github.com/Dino-Comp/Arvores/tree/main/arvores%20binarias">Árvore Binária</a> •
+ <a href="https://github.com/Dino-Comp/Arvores/tree/main/ARVORE234">Árvore 2-3-4</a> • 
+ <a href="https://github.com/Dino-Comp/Arvores/tree/main/arv_AVL">Árvore AVL</a> • 
+ <a href="https://github.com/Dino-Comp/Arvores/tree/main/arv_PATRICIA">Árvore PATRICIA</a>
+</p>
 
+---
+#### Autora
 
+<a href="https://github.com/lauramartinho">
+ <img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/65466643/143616931-de8587f0-bfb6-4015-8969-9df896c25247.jpg" width="80px;" alt=""/>
+ <br />
+ <sub><b>Laura Martinho</b></sub></a> <a href="https://github.com/lauramartinho//" title="Laura Martinho">🦕</a>
