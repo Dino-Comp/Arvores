@@ -14,10 +14,10 @@
 
 [//]: # (--------Conteudos--------)
 <p align="center">
- <a href="#objetivo">Árvore Binária</a> •
- <a href="#roadmap">Árvore 2-3-4</a> • 
- <a href="#tecnologias">Árvore AVL</a> • 
- <a href="#contribuicao">Árvore PATRICIA</a>
+ <a href="https://github.com/Dino-Comp/Arvores/tree/main/arvores%20binarias">Árvore Binária</a> •
+ <a href="https://github.com/Dino-Comp/Arvores/tree/main/ARVORE234">Árvore 2-3-4</a> • 
+ <a href="https://github.com/Dino-Comp/Arvores/tree/main/arv_AVL">Árvore AVL</a> • 
+ <a href="#https://github.com/Dino-Comp/Arvores/tree/main/arv_PATRICIA">Árvore PATRICIA</a>
 </p>
 
 [//]: # (--------Badge--------)
