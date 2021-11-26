@@ -1,7 +1,3 @@
-//UNIVERSIDADE FEDERAL DO AMAZONAS
-//LAURA AGUIAR MARTINHO - 21952064
-//AED2 - TRABALHO PRATICO ARVORES 2-3-4
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
