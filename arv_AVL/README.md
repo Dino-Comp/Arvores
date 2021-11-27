@@ -13,7 +13,7 @@
 </p>
 
 <!--ts-->
-   * [Definição Geral](#definicao-geral)
+   * [Definição Geral](#definic-ao-geral)
    * [Termionologia](#terminologia)
       * [STDIN](#stdin)
       * [Local files](#local-files)
