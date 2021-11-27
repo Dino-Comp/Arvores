@@ -1,43 +1,26 @@
 [//]: # (--------Titulo--------)
 <h1 align="center">
   <a>
-    💻 Árvores 🌳
+    💻 Árvore AVL 🌳
   </a>
 </h1>
 
 [//]: # (--------Descricao--------)
 <p align="center">
   <a>
-  Implementações de alguns algoritmos de diferentes tipos de Árvores.
+  A árvore AVL é uma Árvore binária balanceada.
   </a>
 </p>
 
-<!--ts-->
-   * [Definição Geral](#definic-ao-geral)
-   * [Termionologia](#terminologia)
-      * [STDIN](#stdin)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-      * [Auto insert and update TOC](#auto-insert-and-update-toc)
-      * [GitHub token](#github-token)
-      * [TOC generation with Github Actions](#toc-generation-with-github-actions)
-   * [Tests](#tests)
-   * [Dependency](#dependency)
-   * [Docker](#docker)
-     * [Local](#local)
-     * [Public](#public)
-<!--te-->
-
 
 [//]: # (--------Conteudos--------)
-<p align="center">
- <a href="https://github.com/Dino-Comp/Arvores/tree/main/arvores%20binarias">Árvore Binária</a> •
- <a href="https://github.com/Dino-Comp/Arvores/tree/main/ARVORE234">Árvore 2-3-4</a> • 
- <a href="https://github.com/Dino-Comp/Arvores/tree/main/arv_AVL">Árvore AVL</a> • 
- <a href="https://github.com/Dino-Comp/Arvores/tree/main/arv_PATRICIA">Árvore PATRICIA</a>
-</p>
+<!--ts-->
+   * [a AVL](#avl)
+   * [Balanceamento](#balanceamento)
+   * [Rotação](#rotacao)
+   * [Fator de Balanceamento](#fator-de-balanceamento)
+<!--te-->
+
 
 [//]: # (--------Badge--------)
 <h1 align="center">
@@ -47,18 +30,24 @@
   
 </h1>
 
-## Definição Geral
-Em computação, árvores são um modelo de estrutura hierárquica que consiste em uma relação "pai-filho".
+## AVL
+A árvore AVL é uma Árvore binária balanceada na qual as alturas de duas sub-árvores de todo nó nunca  são maiores que 1.
 
-### Terminologia
-<!--ts-->
-   * Raiz: nó sem pai (primeiro);
-   * Nó interno: nó dentro da árvore, tem pelo menos um filho;
-   * Nó externo (ou folha): não tem filhos;
-   * Profundidade: número de nós anteriores de um nó;
-   * Altura: profundidade máxima;
-   * Sub-árvore: formada por um nó pai e seus descendentes.
-<!--te-->
+### Balanceamento
+   * O balanceamento se trata da diferença entre a altura da sub-árvore esquerda e a altura subárvore direita de um nó.
+   * Cada Nó de uma AVL tem balanceamento = 1; -1; ou 0. Caso contrário, a árvore não é uma AVL.
+
+
+### Rotação
+* Para manter uma árvore balanceada, é necessário fazer uma Rotação, que transforma a árvore, mantendo seu percurso em ordem. 
+* A transformação e a quantidade de vezes que ela será realizada depende do desbalanceamento existente na árvore e com a condição de que a árvore transformada
+continue sendo uma árvore tipo busca
+binária.
+
+### Fator de Balanceamento
+* Para o caso de necessidade de rebalancear, o cálculo de fator de balanceamento é importante para a verificaçãode qual rotação deve ser efetuada na próxima vez.
+* FB consiste na diferença entre as alturas da sub-árvore direita e esquerda. (*Note que:o cálculo do balanceamento é esquerda - direita; o FB é direita - esquerda. Não confunda, cuidado!*)
+* Se FB é negativo, rotações são feitas à direita, caso positivo, rotação à esquerda
 
 [//]: # (--------Banner--------)
 <h1 align="center">
@@ -67,14 +56,6 @@ Em computação, árvores são um modelo de estrutura hierárquica que consiste 
   
 </h1>
 
-### Conteúdo das Implementações
-Encontre as informações específicas em cada código, que contém seus respectivos READMEs.
-<p align="left">
- <a href="https://github.com/Dino-Comp/Arvores/tree/main/arvores%20binarias">Árvore Binária</a> •
- <a href="https://github.com/Dino-Comp/Arvores/tree/main/ARVORE234">Árvore 2-3-4</a> • 
- <a href="https://github.com/Dino-Comp/Arvores/tree/main/arv_AVL">Árvore AVL</a> • 
- <a href="https://github.com/Dino-Comp/Arvores/tree/main/arv_PATRICIA">Árvore PATRICIA</a>
-</p>
 
 ---
 #### Autora
