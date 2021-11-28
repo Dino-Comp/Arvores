@@ -180,15 +180,23 @@ int main(){
   raiz = insere(raiz, 8);
 
 //##################################################
+/*
+b) Defina em C uma estrutura de dados que possa representar uma árvore AVL
+*/
 
   printf("\nb) Defina em C uma estrutura de dados que possa representar uma árvore AVL\n");
 
   printf("\ntypedef struct No{\n\tint info, altura;\n\tstruct No *esquerdo;\n\tstruct No *direito;\n}tipoAVL;\n");
 //##################################################
+/*
+c)  Implemente procedimento para calcular FB
+*/
 
 printf("\nc) Implemente procedimento para calcular FB;\n(consta no codigo)\n");
 //##################################################
-
+/*
+d)Implemente procedimento que percorra a árvore e imprima o fator de balanceamento de cada nó em uma ordem infixada com o seguinte formato:\nn(FB), onde n é uma raiz de subárvore e FB o fator de balanceamento
+*/
   printf("\nd) Implemente procedimento que percorra a árvore e imprima o fator de balanceamento de cada nó em uma ordem infixada com o seguinte formato:\nn(FB), onde n é uma raiz de subárvore e FB o fator de balanceamento.\n");
   printf("\nExemplo com a arvore 5 4 3 6 7 8\n n(FB):\n----------\n");
    inOrdem(raiz);
